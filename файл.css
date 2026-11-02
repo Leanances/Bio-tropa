@@ -1,0 +1,28 @@
+.custom-input {
+    background: transparent !important;
+    border: none !important;
+    outline: none !important;
+    font-size: 25px !important;
+    text-align: center;
+}
+
+.custom-input:focus {
+    background: transparent !important;
+    border: none !important;
+    outline: none !important;
+    font-size: 25px !important;
+}
+
+/* Стили для подсказки (placeholder) */
+.custom-input::placeholder {
+    color: #888 !important;
+    text-align: center !important;
+    font-size: 25px !important;
+    opacity: 1;
+}
+
+/* Подсказка при фокусе (чтобы не пропадала) */
+.custom-input:focus::placeholder {
+    color: #aaa !important;
+    opacity: 0.7;
+}
