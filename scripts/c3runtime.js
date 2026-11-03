@@ -1530,12 +1530,12 @@ self.C3_ExpressionFuncs = [
 			const f0 = p._GetNode(0).GetBoundMethod();
 			return () => f0("role");
 		},
+		() => "Все",
 		() => 960,
 		p => {
 			const v0 = p._GetNode(0).GetVar();
 			return () => (240 + (v0.GetValue() * 50));
 		},
-		() => "Все",
 		() => "№",
 		p => {
 			const v0 = p._GetNode(0).GetVar();
