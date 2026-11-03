@@ -1526,10 +1526,6 @@ self.C3_ExpressionFuncs = [
 			return () => f0("teacherid");
 		},
 		() => "файл.css",
-		p => {
-			const f0 = p._GetNode(0).GetBoundMethod();
-			return () => f0("role");
-		},
 		() => "Все",
 		() => 960,
 		p => {
