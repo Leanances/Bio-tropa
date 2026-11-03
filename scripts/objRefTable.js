@@ -201,6 +201,7 @@ self.C3_JsPropNameTable = [
 	{Спрайт46: 0},
 	{ВводТекста3: 0},
 	{Текст5: 0},
+	{Спрайт47: 0},
 	{Поле1_АвX: 0},
 	{Поле1_АвY: 0},
 	{"1_1М": 0},
@@ -361,5 +362,6 @@ self.InstanceType = {
 	Спрайт45: class extends self.ISpriteInstance {},
 	Спрайт46: class extends self.ISpriteInstance {},
 	ВводТекста3: class extends self.ITextInputInstance {},
-	Текст5: class extends self.ITextInstance {}
+	Текст5: class extends self.ITextInstance {},
+	Спрайт47: class extends self.ISpriteInstance {}
 }
