@@ -67,9 +67,10 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Eponesh_GameScore.Acts.PlayerSetScore,
 		C3.Plugins.Eponesh_GameScore.Exps.PlayerName,
 		C3.Plugins.Sprite.Acts.SetVisible,
-		C3.Plugins.TextBox.Exps.Text,
 		C3.Plugins.Eponesh_GameScore.Acts.PlayerLogin,
+		C3.Plugins.Eponesh_GameScore.Cnds.OnPlayerLoginComplete,
 		C3.Plugins.TextBox.Cnds.CompareInstanceVar,
+		C3.Plugins.TextBox.Exps.Text,
 		C3.Plugins.Eponesh_GameScore.Acts.PlayerSetName,
 		C3.Plugins.TextBox.Cnds.OnTextChanged
 	];
