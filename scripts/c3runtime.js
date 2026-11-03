@@ -1525,7 +1525,13 @@ self.C3_ExpressionFuncs = [
 			const f0 = p._GetNode(0).GetBoundMethod();
 			return () => f0("teacherid");
 		},
+		() => "role",
+		() => "Ученик",
 		() => "файл.css",
+		p => {
+			const f0 = p._GetNode(0).GetBoundMethod();
+			return () => f0("role");
+		},
 		() => "Все",
 		() => 960,
 		p => {
@@ -1585,6 +1591,7 @@ self.C3_ExpressionFuncs = [
 		() => "teacherid, role, class, task1, task2, task3, task4, pop1, pop2, pop3, pop4",
 		() => "9А",
 		() => "9Б",
+		() => "9В",
 		() => "9Г",
 		p => {
 			const f0 = p._GetNode(0).GetBoundMethod();
@@ -1622,7 +1629,6 @@ self.C3_ExpressionFuncs = [
 		() => "КодКл",
 		() => "Код",
 		() => "teacherid",
-		() => "role",
 		() => "Учитель",
 		() => "class"
 ];
