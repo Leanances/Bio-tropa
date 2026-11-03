@@ -1513,26 +1513,22 @@ self.C3_ExpressionFuncs = [
 		() => "pop4",
 		() => 313,
 		() => 345,
-		p => {
-			const f0 = p._GetNode(0).GetBoundMethod();
-			return () => f0();
-		},
-		p => {
-			const f0 = p._GetNode(0).GetBoundMethod();
-			return () => f0("class");
-		},
-		p => {
-			const f0 = p._GetNode(0).GetBoundMethod();
-			return () => f0("teacherid");
-		},
 		() => "role",
 		() => "Ученик",
 		() => "файл.css",
 		p => {
 			const f0 = p._GetNode(0).GetBoundMethod();
+			return () => f0("teacherid");
+		},
+		p => {
+			const f0 = p._GetNode(0).GetBoundMethod();
 			return () => f0("role");
 		},
 		() => "Все",
+		p => {
+			const f0 = p._GetNode(0).GetBoundMethod();
+			return () => f0("class");
+		},
 		() => 960,
 		p => {
 			const v0 = p._GetNode(0).GetVar();
@@ -1544,6 +1540,10 @@ self.C3_ExpressionFuncs = [
 			return () => ((v0.GetValue() + 1)).toString();
 		},
 		() => "ФИ",
+		p => {
+			const f0 = p._GetNode(0).GetBoundMethod();
+			return () => f0();
+		},
 		() => "Кл",
 		() => "Бл1",
 		p => {
